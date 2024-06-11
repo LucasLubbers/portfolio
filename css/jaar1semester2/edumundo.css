@@ -1,0 +1,63 @@
+*{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+.container{
+    height: 500px;
+    display: flex;
+}
+.left{
+    width: 40%;
+    text-align: center;
+    margin-top: 115px;
+    margin-left: 125px;
+}
+img{
+    height: 300px; 
+}
+h1{
+    font-weight: bold;
+    font-size: 32pt;
+    margin-bottom: 10px;
+}
+p{
+    margin-bottom: 20px;
+}
+.button{
+    height: 50px;
+    background-color: white;
+    border-color: black;
+    border-radius: 20px;
+    font-size: 12pt;
+    padding: 10px;
+    transition: 200ms;
+}
+.button:hover{
+    cursor: pointer;
+    color: blue;
+    border-color: blue;
+}
+.right{
+    width: 40%;
+    text-align: center;
+    margin-top: 150px;
+    margin-left: 50px;
+}
+.goBackButton{
+    position: absolute;
+    height: 50px;
+    margin-left: 25px;
+    margin-top: 25px;
+    background-color: white;
+    border-color: black;
+    border-radius: 20px;
+    font-size: 12pt;
+    padding: 10px;
+    transition: 200ms;
+}
+.goBackButton:hover{
+    cursor: pointer;
+    color: blue;
+    border-color: blue;
+}
