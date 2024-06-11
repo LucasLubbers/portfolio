@@ -55,7 +55,7 @@ h1{
     opacity: 0.5;
     transition: 300ms;
     background-size: cover; 
-    background-image: url(../img/planvanaanpak.jpg); 
+    background-image: url(../img/documentation.jpg); 
     width: 300px;
     height: 200px;
     border-radius: 10%;
@@ -67,7 +67,7 @@ h1{
     opacity: 0.5;
     transition: 300ms;
     background-size: cover; 
-    background-image: url(../img/notulen.jpg); 
+    background-image: url(../img/POP.jpg); 
     width: 300px;
     height: 200px;
     border-radius: 10%;
@@ -79,7 +79,7 @@ h1{
     opacity: 0.5;
     transition: 300ms;
     background-size: cover; 
-    background-image: url(../img/agenda.jpg); 
+    background-image: url(../img/communication.jpg); 
     width: 300px;
     height: 200px;
     border-radius: 10%;
@@ -103,7 +103,7 @@ h1{
     opacity: 0.5;
     transition: 300ms;
     background-size: cover; 
-    background-image: url(../img/presenteren.jpg); 
+    background-image: url(../img/advice.jpg); 
     width: 300px;
     height: 200px;
     border-radius: 10%;
@@ -115,7 +115,8 @@ h1{
     opacity: 0.5;
     transition: 300ms;
     background-size: cover; 
-    background-image: url(../img/vergaderen.jpg); 
+    background-image: url(../img/certficaat.png);
+    background-position: 50%;
     width: 300px;
     height: 200px;
     border-radius: 10%;
