@@ -40,3 +40,20 @@ h1{
 .background1:hover{
     opacity: 1;
 }
+.goBackButton{
+    position: absolute;
+    height: 50px;
+    margin-left: 25px;
+    margin-top: 25px;
+    background-color: white;
+    border-color: black;
+    border-radius: 20px;
+    font-size: 12pt;
+    padding: 10px;
+    transition: 200ms;
+}
+.goBackButton:hover{
+    cursor: pointer;
+    color: blue;
+    border-color: blue;
+}
