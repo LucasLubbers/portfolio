@@ -1,0 +1,168 @@
+*{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+h1{
+    text-align: center;
+    margin-top: 25px;
+}
+.container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.item{
+    width: 300px;
+    height: 200px;
+    background-color:gray;
+    margin: 20px;
+    margin-top: 50px;
+    border-radius: 10%;
+    background-size: cover; 
+    transition: 300ms;
+    text-align: center;
+}   
+.item:hover{
+    cursor: pointer;
+    transform: scale(1.1);
+}
+.background1{
+    opacity: 0.5;
+    transition: 300ms;
+    background-size: cover; 
+    background-image: url(../img/reflectieverslag.jpg); 
+    width: 300px;
+    height: 200px;
+    border-radius: 10%;
+}
+.background1:hover{
+    opacity: 1;
+}
+.background2{
+    opacity: 0.5;
+    transition: 300ms;
+    background-size: cover; 
+    background-image: url(../img/feedback.jpg); 
+    width: 300px;
+    height: 200px;
+    border-radius: 10%;
+}
+.background2:hover{
+    opacity: 1;
+}
+.background3{
+    opacity: 0.5;
+    transition: 300ms;
+    background-size: cover; 
+    background-image: url(../img/vergaderen.jpg); 
+    width: 300px;
+    height: 200px;
+    border-radius: 10%;
+}
+.background3:hover{
+    opacity: 1;
+}
+.background4{
+    opacity: 0.5;
+    transition: 300ms;
+    background-size: cover; 
+    background-image: url(../img/POP.jpg); 
+    width: 300px;
+    height: 200px;
+    border-radius: 10%;
+}
+.background4:hover{
+    opacity: 1;
+}
+.background5{
+    opacity: 0.5;
+    transition: 300ms;
+    background-size: cover; 
+    background-image: url(../img/certficaat.png); 
+    width: 300px;
+    height: 200px;
+    border-radius: 10%;
+}
+.background5:hover{
+    opacity: 1;
+}
+.background6{
+    opacity: 0.5;
+    transition: 300ms;
+    background-size: cover; 
+    background-image: url(../img/english.png); 
+    width: 300px;
+    height: 200px;
+    border-radius: 10%;
+}
+.background6:hover{
+    opacity: 1;
+}
+.background7{
+    opacity: 0.5;
+    transition: 300ms;
+    background-size: cover; 
+    background-image: url(../img/onderzoek.png); 
+    width: 300px;
+    height: 200px;
+    border-radius: 10%;
+}
+.background7:hover{
+    opacity: 1;
+}
+.background8{
+    opacity: 0.5;
+    transition: 300ms;
+    background-size: cover; 
+    background-image: url(../img/project.jpg);
+    background-position: 50%;
+    width: 300px;
+    height: 200px;
+    border-radius: 10%;
+}
+.background8:hover{
+    opacity: 1;
+}
+.background9{
+    opacity: 0.5;
+    transition: 300ms;
+    background-size: cover; 
+    background-image: url(../img/ethiek.png);
+    background-position: 50%;
+    width: 300px;
+    height: 200px;
+    border-radius: 10%;
+}
+.background9:hover{
+    opacity: 1;
+}
+.background10{
+    opacity: 0.5;
+    transition: 300ms;
+    background-size: cover; 
+    background-image: url(../img/edumundo.jpg);
+    background-position: 50%;
+    width: 300px;
+    height: 200px;
+    border-radius: 10%;
+}
+.background10:hover{
+    opacity: 1;
+}
+.goBackButton{
+    position: absolute;
+    height: 50px;
+    margin-left: 25px;
+    background-color: white;
+    border-color: black;
+    border-radius: 20px;
+    font-size: 12pt;
+    padding: 10px;
+    transition: 200ms;
+}
+.goBackButton:hover{
+    cursor: pointer;
+    color: blue;
+    border-color: blue;
+}
